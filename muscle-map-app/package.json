@@ -1,0 +1,19 @@
+{
+  "name": "muscle-map",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Workout logger with a muscle map and progressive overload plan",
+  "scripts": {
+    "web": "node prepare.mjs",
+    "android:prepare": "node prepare.mjs && cap add android && capacitor-assets generate --android && cap sync android",
+    "android:build": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.2",
+    "@capacitor/core": "8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "3.0.5",
+    "@capacitor/cli": "8.5.2"
+  }
+}

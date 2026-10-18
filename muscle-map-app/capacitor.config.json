@@ -1,0 +1,14 @@
+{
+  "appId": "app.musclemap.tracker",
+  "appName": "Muscle Map",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#eef1f4"
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "native",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}
